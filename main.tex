@@ -1,0 +1,39 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper, hidelinks]{style} % Use US Letter paper, change to a4paper for A4
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tikz}
+\def\ci#1{\textcircled{\resizebox{.5em}{!}{#1}}}
+
+%\titleformat{\section}{\normalfont\scshape}{\thesection}{1em}{} % conflicted with style.cls titleformat section
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\lastupdated % Print the Last Updated text at the top right
+\namesection{{Sean}}{Wu}{
+\href{mailto:sean.wu20s@outlook.com}{\ci{\faEnvelope}} {\fontsize{10}{10}\selectfont \href{mailto:sean.wu20s@outlook.com}{sean.wu20s@outlook.com}}}
+{\ci{\faPhone}  {\fontsize{10}{10}\selectfont 437-775-0199}}
+{\href{https://github.com/Seangottarun}{\ci{\faGithub}} {\fontsize{10}{10}\selectfont \href{https://github.com/Seangottarun}{github.com/Seangottarun}}
+}
+{
+\href{https://www.linkedin.com/in/wu-sean/}{\ci{\faLinkedin}} {\fontsize{10}{10}\selectfont \href{https://www.linkedin.com/in/wu-sean/}{linkedin.com/in/wu-sean/}}
+}
+{
+\href{https://seanwu.io/}{\ci{\faDesktop}} {\fontsize{10}{10}\selectfont \href{https://seanwu.io/}{seanwu.io}}
+}
+
+
+\input{page1.tex} % add main content for 1st page
+
+\end{document}
