@@ -56,8 +56,8 @@
 } %\\[5pt] % Whitespace between the name and contact information
 \end{minipage}
 % phone / email
-%\begin{minipage}[t][.8cm][t]{.22\textwidth}
-\begin{minipage}[t][.8cm][t]{.28\textwidth}
+\begin{minipage}[t][.8cm][t]{.35\textwidth} % for u of t email
+%\begin{minipage}[t][.8cm][t]{.28\textwidth} % for outlook email
 \vspace{-28 pt} % Hacky fix for awkward extra vertical space
 %\centering{ % Center the contact information
 \color{subsubheadings} % Use the headings color
@@ -70,7 +70,6 @@
 #4
 \end{minipage}
 % GitHub / Website
-%\begin{minipage}[t][.8cm][t]{.20\textwidth}
 \begin{minipage}[t][.8cm][t]{.28\textwidth}
 \vspace{-30 pt} % Hacky fix for awkward extra vertical space
 %\centering{ % Center the contact information
